@@ -1,0 +1,7 @@
+{
+    "serverPort": 3000,
+    "passportStrategy": "jwt",
+    "jwtExpireIn": "600s",
+    "jwtSecret": "Th3sECr3tKeI123",
+    "databaseUrl": "mongodb://localhost/acronyms"
+}
