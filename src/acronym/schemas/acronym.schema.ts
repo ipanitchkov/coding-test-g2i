@@ -4,7 +4,7 @@ import { Document } from 'mongoose';
 @Schema()
 export class Acronym extends Document {
   @Prop()
-  _id: string;
+  _id: number;
   @Prop()
   name: string;
   @Prop()
