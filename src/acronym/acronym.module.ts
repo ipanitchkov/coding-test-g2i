@@ -7,7 +7,9 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   controllers: [AcronymController],
   exports: [AcronymService],
-  imports: [MongooseModule.forFeature([{ name: 'Acronym', schema: AcronymSchema }])],
+  imports: [
+    MongooseModule.forFeature([{ name: 'Acronym', schema: AcronymSchema }]),
+  ],
   providers: [AcronymService],
 })
 export class AcronymModule {}
